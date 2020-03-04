@@ -243,6 +243,13 @@ namespace SlackBot.Tfs
             {
                 throw new Exception(string.Format("Field '{0}' was not returned by TFS", name));
             }
+
+            var identity = wi.Fields[name] as IdentityRef;
+
+            if (identity != null)
+                return identity.DisplayName;
+
+
             return wi.Fields[name].ToString();
         }
 
