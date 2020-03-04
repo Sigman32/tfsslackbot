@@ -11,9 +11,7 @@ using Microsoft.TeamFoundation.WorkItemTracking.WebApi.Models;
 using Microsoft.VisualStudio.Services.Client;
 using Microsoft.VisualStudio.Services.Common;
 using Microsoft.VisualStudio.Services.WebApi;
-using Microsoft.TeamFoundation.Server;
 using System.Net;
-using System.ComponentModel;
 using Microsoft.TeamFoundation.Core.WebApi.Types;
 
 namespace SlackBot.Tfs
